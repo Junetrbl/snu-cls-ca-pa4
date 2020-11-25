@@ -13,7 +13,7 @@ The target RISC-V processor `snurisc6` consists of six pipeline stages: IF, ID, 
 * IF: Fetches an instruction from imem (instruction memory)
 * ID: Decodes the instruction and prepares immediate values
 * RR: Reads the register file
-* EX: Performs arithmetic/local computation and determines the branch outcome
+* EX: Performs arithmetic/logical computation and determines the branch outcome
 * MM: Accesses dmem (data memory), if necessary
 * WB: Writes back the result to the register file
 
