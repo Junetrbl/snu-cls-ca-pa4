@@ -87,11 +87,11 @@ class IF(Pipe):
 
         # Internal signals:----------------------------
         #
-        #   self.pc                 # Pipe.ID.pc
-        #   self.inst               # Pipe.ID.inst
-        #   self.exception          # Pipe.ID.exception
-        #   self.pc_next            # Pipe.ID.pc_next
-        #   self.pcplus4            # Pipe.ID.pcplus4
+        #   self.pc                 # Pipe.IF.pc
+        #   self.inst               # Pipe.IF.inst
+        #   self.exception          # Pipe.IF.exception
+        #   self.pc_next            # Pipe.IF.pc_next
+        #   self.pcplus4            # Pipe.IF.pcplus4
         #
         #----------------------------------------------
 
